@@ -121,6 +121,17 @@
     margin-right: 30px;
     
   }
+  .link-contacts{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+     color: var(--secondary-text-color);
+     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
+  }
   .link-contacts .icon{
     display: inline-flex;
     margin-right: 10px;
@@ -129,11 +140,12 @@
     align-items: center;
     fill: var(--secondary-text-color);
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   .link-contacts:hover .icon,
   .link-contacts:focus .icon{
     fill: var(--hover-nav-color);
-    transition: var(--animation);
+    
   }
   
   /* Ссылки и взаимодействие с ними */
@@ -144,6 +156,7 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
    
   }
   
@@ -168,7 +181,7 @@
   .link:focus,
   .link-current {
     color: var(--hover-nav-color);
-    transition: var(--animation);
+    
   }
   
   
@@ -185,7 +198,7 @@
      url(../images/bk-img.jpg);
       max-width: 1600px;
     background-size: cover;
-    
+    margin: auto;
     
   }
   
@@ -376,6 +389,7 @@
     background-color: #fff;
     margin-bottom: 30px;
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   
   .social-icons-link .icon {
@@ -383,16 +397,17 @@
     height: 20px;
     fill: var(--icon-color);
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   .social-icons-link:hover,
   .social-icons-link:focus {
    background-color: var(--hover-button-color);
-   transition: var(--animation);
+   
   }
   .social-icons-link:hover .icon,
   .social-icons-link:focus .icon {
     fill: var(--hover-button-text-color);
-    transition: var(--animation);
+    
   }
   /* Постоянные клиенты*/
    .client{
@@ -421,11 +436,13 @@
     box-sizing: border-box;
     border-radius: 4px;
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   .client-icons-link .icon{
     
     fill: var(--icon-color);
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   .client-icons-item:not(:last-child) {
     margin-right: 30px;
@@ -433,12 +450,12 @@
   .client-icons-link:hover,
   .client-icons-link:focus{
     border: 1px solid var(--hover-nav-color);
-    transition: var(--animation);
+    
   }
   .client-icons-link:hover .icon,
   .client-icons-link:focus .icon{
     fill: var(--hover-nav-color);
-    transition: var(--animation);
+    
   }
 
   /*! FOOTER */
@@ -496,6 +513,7 @@
     background-color:rgba(255, 255, 255, 0.1);;
     margin-bottom: 30px;
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   
   .icons-link .icon {
@@ -503,16 +521,17 @@
     height: 20px;
     fill: var(--hover-button-text-color);
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
   .icons-link:hover,
   .icons-link:focus {
    background-color: var(--hover-button-color);
-   transition: var(--animation);
+   
   }
   .icons-link:hover .icon,
   .cons-link:focus .icon {
     fill: var(--hover-button-text-color);
-    transition: var(--animation);
+    
   }
   
   /* модальное окно */
@@ -593,6 +612,7 @@ transition: transform 700ms ease-in-out 300ms;
     line-height: 1.63;
     padding: 6px 22px;
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
   }
 
   
@@ -607,7 +627,7 @@ transition: transform 700ms ease-in-out 300ms;
     border: none;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
-      transition: var(--animation);
+    
 
   }
 
@@ -629,9 +649,10 @@ transition: transform 700ms ease-in-out 300ms;
   .content .item:focus,
    .content .item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: var(--animation);
+    
     
   }
+  
   
   .content .card-description {
     background: #ffffff;
@@ -660,6 +681,7 @@ transition: transform 700ms ease-in-out 300ms;
   .content .item{
     overflow: hidden;
     transition-property: color, background-color, box-shadow;
+    transition: var(--animation);
     position: relative;
     
   }
